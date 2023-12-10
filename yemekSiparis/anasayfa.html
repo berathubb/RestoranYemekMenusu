@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="YemekSiparis.css">
+    <link rel="icon" href="resimler/atesle.jpg" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ATEŞLE</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="anasayfa.html" class="logo">
+            <img src="resimler/atesle.jpg" alt="logo">
+        </a>
+        <!--! Header -->
+        <nav class="navbar">
+            <a href="anasayfa.html" class="active">Ana Sayfa</a>
+            <a href="hakkimizda.html">Hakkında</a>
+            <a href="menu.html">Menü</a>
+            <a href="urunler.html">Ürünler</a>
+            <a href="iletisim.html">İletişim</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="Burada Arayın">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="card-items-container">
+            <div class="card-item">
+                <i class="fas fa-times"></i>
+                <img src="https://www.burgerking.com.tr/cmsfiles/products/whopper-menu.png?v=293" alt="menu">
+                <div class="content">
+                    <h3>Ürün 01</h3>
+                    <div class="price">₺89.99</div>
+                </div>
+            </div>
+            <div class="card-item">
+                <i class="fas fa-times"></i>
+                <img src="https://img.freepik.com/premium-photo/pizza-isolate-white-background-generative-ai_74760-2619.jpg"
+                    alt="menu">
+                <div class="content">
+                    <h3>Ürün 02</h3>
+                    <div class="price">₺79.99</div>
+                </div>
+            </div>
+            <div class="card-item">
+                <i class="fas fa-times"></i>
+                <img src="https://www.burgerking.com.tr/cmsfiles/products/whopper-jr-menu.png?v=293" alt="menu">
+                <div class="content">
+                    <h3>Ürün 03</h3>
+                    <div class="price">₺79.99</div>
+                </div>
+            </div>
+            <div class="card-item">
+                <i class="fas fa-times"></i>
+                <img src="https://img.freepik.com/premium-photo/doner-kebab-doner-kebap-fast-food-flatbread-isolated-white-background_770123-1260.jpg"
+                    alt="menu">
+                <div class="content">
+                    <h3>Ürün 04</h3>
+                    <div class="price">₺59.99</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Ödeme Yap</a>
+        </div>
+    </header>
+    <!--! Header -->
+
+    <section class="metin">
+        <div class="content">
+            <h3>EVİNİZE HIZLI TESLİMAT</h3>
+            <P>ATEŞLE yemek ile çeşit çeşit yemek, bol bol indirim ve dilediğin gibi ödeme fırsatı. Burger, pizza,
+                lahmacun. Acıktığın anda çeşit çeşit yemek kapında. </P>
+            <a href="#" class="btn">Sipariş Ver</a>
+        </div>
+    </section>
+
+    <!--! Menü -->
+
+    <section class="menu">
+        <h1 class="heading"><a href="menu.html"><span>Menümüz</span></h1><br></a>
+        <div class="slider">
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <img src="https://www.burgerking.com.tr/cmsfiles/products/whopper-menu.png?v=293" alt="menu">
+                    <span class="menu-category">BURGER</span>
+                    <h3>Whopper Menü</h3>
+                    <div class="price">₺89.99 <span>99.90</span></div>
+                </div>
+                <div class="bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img
+                        src="https://img.freepik.com/premium-photo/pizza-isolate-white-background-generative-ai_74760-2619.jpg">
+                    <span class="menu-category">PIZZA</span>
+                    <h3>Orta Boy Pizza</h3>
+                    <div class="price">₺79.99 <span>89.90</span></div>
+                </div>
+                <div class="bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="https://www.burgerking.com.tr/cmsfiles/products/whopper-jr-menu.png?v=293" alt="menu">
+                    <span class="menu-category">BURGER</span>
+                    <h3>Whopper Jr. Menü</h3>
+                    <div class="price">₺79.99 <span>89.90</span></div>
+                </div>
+                <div class="bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="https://img.freepik.com/premium-photo/doner-kebab-doner-kebap-fast-food-flatbread-isolated-white-background_770123-1260.jpg"
+                        alt="menu">
+                    <span class="menu-category">DONER</span>
+                    <h3>Tombik Tavuk Döner</h3>
+                    <div class="price">₺59.99 <span>69.99</span></div>
+                </div>
+                <div class="bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </section>
+    <!--! Menü -->
+
+    <!--! Ürünler -->
+
+    <section class="products">
+        <h1 class="heading"><a href="urunler.html"><span>Ürünler</span></h1><br></a>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Fast food</span>
+                    <a href="#" class="name">Büyük Boy Pizza</a>
+                </div>
+                <div class="image">
+                    <img src="https://img.freepik.com/free-photo/tasty-top-view-sliced-pizza-italian-traditional-round-pizza_90220-1357.jpg?t=st=1698185974~exp=1698189574~hmac=bd2c6ee70ea0f2f2ffbb93501f56d0941dbf7c199c3781c0ad5de457a6d7d429&w=740"
+                        alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺75</b>
+                        <span class="amount">200gr / 350 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Tatlı</span>
+                    <a href="#" class="name">Künefe</a>
+                </div>
+                <div class="image">
+                    <img src="https://www.sbarro.com.tr/cmsfiles/categories/kunefe.png?v=81" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺45</b>
+                        <span class="amount">70gr / 300 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Tatlı</span>
+                    <a href="#" class="name">Sütlaç</a>
+                </div>
+                <div class="image">
+                    <img src="https://www.pizzamonza.com.tr/wp-content/uploads/2020/01/sutlac.jpg" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺35</b>
+                        <span class="amount">80gr / 250 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--! Ürünler -->
+
+    <!--! Hakkımızda -->
+
+    <section class="about">
+        <h1 class="heading"><a href="hakkimizda.html"><span>Hakkımızda</span></h1><br></a>
+        <div class="row">
+            <div class="image">
+                <img src="https://www.gastroshot.com/wp-content/uploads/2021/01/Gastroshot-Sushi-Manga-019.jpg"
+                    alt="about">
+            </div>
+            <div class="content">
+                <h3>Yemeklerimizde ki lezzetin sırrı nedir ?</h3>
+                <p>ATEŞLE yemek olarak Öncelikli olan şey sizin memnuniyetiniz. Yemeklerimizde kullandğımız malzemeler ,
+                    hijyenik bir ortam ve hızlı teslimatımız ile sizleri memnun etmek bizler için bir motivasyon
+                    kaynağıdır. Böylelikle yemeklerimizin lezzeti de bir hayli artmış oluyor </p>
+                <a href="#" class="btn">Daha Fazla</a>
+            </div>
+        </div>
+    </section>
+
+    <!--! Hakkımızda -->
+
+    <!--! Kullanıcı Yorumu -->
+    <section class="review" id="review">
+        <h1 class="heading"><span>MÜŞTERİ YORUMU</span></h1><br>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2012/04/12/19/33/speech-30307_640.png" alt="alinti"
+                    class="alinti">
+                <p>Yemekler çok lezzetli. Paket servis gerçekten çok hızlı. Ayrıca yiyecekler çok özenli bir şekilde
+                    paketlenmişti. Artık yeni mekanım ATEŞLE.</p>
+                <img src="https://pbs.twimg.com/media/D_X8_pLXoAE36qX.jpg:large" alt="profile" class="user">
+                <h3>Çağatay Ulusoy</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2012/04/12/19/33/speech-30307_640.png" alt="alinti"
+                    class="alinti">
+                <p>Yemekler çok lezzetli. Paket servis gerçekten çok hızlı. Ayrıca yiyecekler çok özenli bir şekilde
+                    paketlenmişti. Artık yeni mekanım ATEŞLE.</p>
+                <img src="https://tr.web.img4.acsta.net/pictures/16/12/07/08/04/194926.jpg" alt="profile" class="user">
+                <h3>Okan Yalabık</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2012/04/12/19/33/speech-30307_640.png" alt="alinti"
+                    class="alinti">
+                <p>Yemekler çok lezzetli. Paket servis gerçekten çok hızlı. Ayrıca yiyecekler çok özenli bir şekilde
+                    paketlenmişti. Artık yeni mekanım ATEŞLE.</p>
+                <img src="https://tr.web.img4.acsta.net/pictures/16/09/21/15/16/077838.jpg" alt="profile" class="user">
+                <h3>Serenay Sarıkaya</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--! Kullanıcı Yorumu -->
+
+    <!--! İletişim -->
+
+    <section class="contact">
+        <h1 class="heading"><a href="iletisim.html"><span>İLETİŞİM</span></h1><br></a>
+        <div class="row">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.5476949971317!2d29.033046776042987!3d41.05701927134377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab79d7f133593%3A0xb9182e0040343f01!2sMandarin%20Oriental%20Bosphorus%2C%20Istanbul!5e0!3m2!1str!2str!4v1698237820047!5m2!1str!2str"
+                loading="lazy" class="map" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form>
+                <h3>İLETİŞİME GEÇİN</h3>
+                <div class="inputBox">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="İsim">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="İsim">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-phone"></i>
+                    <input type="number" placeholder="İsim">
+                </div>
+                <input type="submit" class="btn" value="İletişime Geç">
+            </form>
+
+        </div>
+    </section>
+
+
+    <!--! İletişim -->
+
+
+    <!--! Blog -->
+
+    <section class="blog">
+        <h1 class="heading"><a href="blog.html"><span>Bloglarımız</span></h1><br></a>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="https://png.pngtree.com/thumb_back/fw800/background/20230519/pngtree-lamb-chops-prepared-and-served-on-a-wooden-carving-board-image_2579104.jpg"
+                        alt="blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Pirzola nasıl yapılır ?</a>
+                    <span>Filiz Ateş / 20 Ocak 2023</span>
+                    <p>Kuzu Pirzola Tarifi İçin Malzemeler : 300 gram kuzu pirzola 1/2 çay bardağı zeytinyağı 1 çay kaşığı tuz 2 çay kaşığı tane karabiber 1/2 çay kaşığı pul biber 1/2 çay kaşığı toz kırmızı biber 5 dal taze kekik...</p>
+                    <a href="blog.html" class="btn">Daha Fazla</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://cdn.yemek.com/uploads/2016/06/bezelyeli-tavuk.jpg" alt="blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Bezelyeli Tavuk nasıl yapılır ?</a>
+                    <span>Ahmet Kervan / 19 Ağustos 2023</span>
+                    <p>2 adet tavuk göğsü 2 su bardağı bezelye 1 adet soğan 1 adet patates 1adet havuç 1 yemek kaşığı biber salçası 1çay kaşığı karabiber 1 çay kaşığı tuz ...</p>
+                    <a href="blog.html" class="btn">Daha Fazla</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://cdn.yemek.com/mnresize/1250/833/uploads/2023/10/tahinli-kek-yemekcom.jpg"
+                        alt="blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Çörek Tadında: Tahinli Kek Tarifi</a>
+                    <span>Gupse Özay / 5 Şubat 2023</span>
+                    <p>2 adet tavuk göğsü 2 su bardağı bezelye 1 adet soğan 1 adet patates 1adet havuç 1 yemek kaşığı
+                        biber salçası 1çay kaşığı karabiber 1 çay kaşığı tuz ...</p>
+                    <a href="blog.html" class="btn">Daha Fazla</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--! Blog -->
+
+    <!--! Footer -->
+
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Ara">
+            <button class="btn btn-primary">Ara</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="links">
+            <a href="anasayfa.html" class="active">Ana Sayfa</a>
+            <a href="hakkimizda.html">Hakkında</a>
+            <a href="menu.html">Menü</a>
+            <a href="urunler.html">Ürünler</a>
+            <a href="#review">Review</a>
+            <a href="iletisim.html">İletişim</a>
+            <a href="blog.html">Blog</a>
+        </div>
+        <div class="credit">
+            <span>BERAT ATEŞ</span> tarafından yapıldı | Tüm Hakları Saklıdır
+        </div>
+    </section>
+
+    <!--! Footer -->
+
+
+    <script src="YemekSiparis.js"></script>
+
+
+
+
+
+</body>
+
+</html>

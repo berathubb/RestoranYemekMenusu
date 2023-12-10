@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="YemekSiparis.css">
+    <link rel="icon" href="resimler/atesle.jpg" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ATEŞLE</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="anasayfa.html" class="logo">
+            <img src="resimler/atesle.jpg" alt="logo">
+        </a>
+        <!--! Header -->
+        <nav class="navbar">
+            <a href="anasayfa.html">Ana Sayfa</a>
+            <a href="hakkimizda.html">Hakkında</a>
+            <a href="menu.html">Menü</a>
+            <a href="urunler.html" class="active">Ürünler</a>
+            <a href="iletisim.html">İletişim</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="Burada Arayın">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="card-items-container">
+            <div class="card-item">
+                <i class="fas fa-times"></i>
+                <img src="https://www.burgerking.com.tr/cmsfiles/products/whopper-menu.png?v=293" alt="menu">
+                <div class="content">
+                    <h3>Ürün 01</h3>
+                    <div class="price">₺89.99</div>
+                </div>
+            </div>
+            <div class="card-item">
+                <i class="fas fa-times"></i>
+                <img src="https://img.freepik.com/premium-photo/pizza-isolate-white-background-generative-ai_74760-2619.jpg"
+                    alt="menu">
+                <div class="content">
+                    <h3>Ürün 02</h3>
+                    <div class="price">₺79.99</div>
+                </div>
+            </div>
+            <div class="card-item">
+                <i class="fas fa-times"></i>
+                <img src="https://www.burgerking.com.tr/cmsfiles/products/whopper-jr-menu.png?v=293" alt="menu">
+                <div class="content">
+                    <h3>Ürün 03</h3>
+                    <div class="price">₺79.99</div>
+                </div>
+            </div>
+            <div class="card-item">
+                <i class="fas fa-times"></i>
+                <img src="https://img.freepik.com/premium-photo/doner-kebab-doner-kebap-fast-food-flatbread-isolated-white-background_770123-1260.jpg"
+                    alt="menu">
+                <div class="content">
+                    <h3>Ürün 04</h3>
+                    <div class="price">₺59.99</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Ödeme Yap</a>
+        </div>
+    </header>
+    <!--! Header -->
+
+    <!--! Ürünler -->
+
+    <section class="products">
+        <h1 class="heading"><span>Ürünler</span></h1><br>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Fast food</span>
+                    <a href="#" class="name">Büyük Boy Pizza</a>
+                </div>
+                <div class="image">
+                    <img src="https://img.freepik.com/free-photo/tasty-top-view-sliced-pizza-italian-traditional-round-pizza_90220-1357.jpg?t=st=1698185974~exp=1698189574~hmac=bd2c6ee70ea0f2f2ffbb93501f56d0941dbf7c199c3781c0ad5de457a6d7d429&w=740"
+                        alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺75</b>
+                        <span class="amount">200gr / 350 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Tatlı</span>
+                    <a href="#" class="name">Künefe</a>
+                </div>
+                <div class="image">
+                    <img src="https://www.sbarro.com.tr/cmsfiles/categories/kunefe.png?v=81" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺45</b>
+                        <span class="amount">70gr / 300 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Tatlı</span>
+                    <a href="#" class="name">Sütlaç</a>
+                </div>
+                <div class="image">
+                    <img src="https://www.pizzamonza.com.tr/wp-content/uploads/2020/01/sutlac.jpg" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺35</b>
+                        <span class="amount">80gr / 250 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Tatlı</span>
+                    <a href="#" class="name">Trileçe</a>
+                </div>
+                <div class="image">
+                    <img src="https://hamarat.org/images/Karamelli-Trilece-42.jpg" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺67</b>
+                        <span class="amount">60gr / 255 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Ev Yemeği</span>
+                    <a href="#" class="name">Kuru Fasulye</a>
+                </div>
+                <div class="image">
+                    <img src="https://www.koylummantievi.com/wp-content/uploads/2019/11/kurufasulye-koylummantievi.jpg" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺80</b>
+                        <span class="amount">110gr / 500 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Burger</span>
+                    <a href="#" class="name">King Beef Burger Menü</a>
+                </div>
+                <div class="image">
+                    <img src="https://www.burgerking.com.tr/cmsfiles/products/king-beef-burger-menu.png?v=293" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺110</b>
+                        <span class="amount">80gr / 270 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Tatlı</span>
+                    <a href="#" class="name">Şekerpare</a>
+                </div>
+                <div class="image">
+                    <img src="https://yemekciyiz.net/wp-content/uploads/2020/08/sekerpare.png" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺50</b>
+                        <span class="amount">30gr / 250 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Ev Yemeği</span>
+                    <a href="#" class="name">Mercimek Çorbası</a>
+                </div>
+                <div class="image">
+                    <img src="https://www.muratkellepaca.com/wp-content/uploads/2019/02/mercimek-600x400.jpeg" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺60</b>
+                        <span class="amount">80gr / 450 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Ev Yemeği</span>
+                    <a href="#" class="name">Ezogelin Çorbası</a>
+                </div>
+                <div class="image">
+                    <img src="https://siparis.fiveajans.com/Content/ProductImage/202082013144655corba.png" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺60</b>
+                        <span class="amount">80gr / 450 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Ev Yemeği</span>
+                    <a href="#" class="name">Pirinç Pilavı</a>
+                </div>
+                <div class="image">
+                    <img src="https://www.nazar.com.tr/wp-content/uploads/2020/12/pilav-1.jpg" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺70</b>
+                        <span class="amount">90gr / 500 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Ev Yemeği</span>
+                    <a href="#" class="name">Bulgur Pilavı</a>
+                </div>
+                <div class="image">
+                    <img src="https://yesilayder.com/img/menu/galeri/orginal/bulgur-pilavi_635.png" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺45</b>
+                        <span class="amount">90gr / 500 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Burger</span>
+                    <a href="#" class="name">Big King Menu</a>
+                </div>
+                <div class="image">
+                    <img src="https://www.burgerking.com.tr/cmsfiles/products/big-king-menu.png?v=293" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺120</b>
+                        <span class="amount">85gr / 275 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--! Ürünler -->
+
+
+
+    <script src="YemekSiparis.js"></script>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="YemekSiparis.css">
+    <link rel="icon" href="resimler/atesle.jpg" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ATEŞLE</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="anasayfa.html" class="logo">
+            <img src="resimler/atesle.jpg" alt="logo">
+        </a>
+        <!--! Header -->
+        <nav class="navbar">
+            <a href="anasayfa.html">Ana Sayfa</a>
+            <a href="hakkimizda.html">Hakkında</a>
+            <a href="menu.html" class="active">Menü</a>
+            <a href="urunler.html">Ürünler</a>
+            <a href="iletisim.html">İletişim</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="Burada Arayın">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="card-items-container">
+            <div class="card-item">
+                <i class="fas fa-times"></i>
+                <img src="https://www.burgerking.com.tr/cmsfiles/products/whopper-menu.png?v=293" alt="menu">
+                <div class="content">
+                    <h3>Ürün 01</h3>
+                    <div class="price">₺89.99</div>
+                </div>
+            </div>
+            <div class="card-item">
+                <i class="fas fa-times"></i>
+                <img src="https://img.freepik.com/premium-photo/pizza-isolate-white-background-generative-ai_74760-2619.jpg"
+                    alt="menu">
+                <div class="content">
+                    <h3>Ürün 02</h3>
+                    <div class="price">₺79.99</div>
+                </div>
+            </div>
+            <div class="card-item">
+                <i class="fas fa-times"></i>
+                <img src="https://www.burgerking.com.tr/cmsfiles/products/whopper-jr-menu.png?v=293" alt="menu">
+                <div class="content">
+                    <h3>Ürün 03</h3>
+                    <div class="price">₺79.99</div>
+                </div>
+            </div>
+            <div class="card-item">
+                <i class="fas fa-times"></i>
+                <img src="https://img.freepik.com/premium-photo/doner-kebab-doner-kebap-fast-food-flatbread-isolated-white-background_770123-1260.jpg"
+                    alt="menu">
+                <div class="content">
+                    <h3>Ürün 04</h3>
+                    <div class="price">₺59.99</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Ödeme Yap</a>
+        </div>
+    </header>
+    <!--! Header -->
+
+    <!--! Menü -->
+
+    <section class="menu">
+        <h1 class="heading"><span>Menümüz</span></h1><br>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <img src="https://www.burgerking.com.tr/cmsfiles/products/whopper-menu.png?v=293" alt="menu">
+                    <span class="menu-category">BURGER</span>
+                    <h3>Whopper Menü</h3>
+                    <div class="price">₺89.99 <span>99.90</span></div>
+                </div>
+                <div class="bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img
+                        src="https://img.freepik.com/premium-photo/pizza-isolate-white-background-generative-ai_74760-2619.jpg">
+                    <span class="menu-category">PIZZA</span>
+                    <h3>Orta Boy Pizza</h3>
+                    <div class="price">₺79.99 <span>89.90</span></div>
+                </div>
+                <div class="bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="https://www.burgerking.com.tr/cmsfiles/products/whopper-jr-menu.png?v=293" alt="menu">
+                    <span class="menu-category">BURGER</span>
+                    <h3>Whopper Jr. Menü</h3>
+                    <div class="price">₺79.99 <span>89.90</span></div>
+                </div>
+                <div class="bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="https://img.freepik.com/premium-photo/doner-kebab-doner-kebap-fast-food-flatbread-isolated-white-background_770123-1260.jpg"
+                        alt="menu">
+                    <span class="menu-category">DONER</span>
+                    <h3>Tombik Tavuk Döner</h3>
+                    <div class="price">₺59.99 <span>69.99</span></div>
+                </div>
+                <div class="bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img
+                        src="https://tasdelenkebap.com.tr/uploads/images/category_iskender_63cfb5f5722cf.webp">
+                    <span class="menu-category">İskender</span>
+                    <h3>Yaprak Et İskender</h3>
+                    <div class="price">₺98.99 <span>89.90</span></div>
+                </div>
+                <div class="bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img
+                        src="https://static.wixstatic.com/media/3a7f23_e53b9e2ad3ab4271ae31500e7c72b70e~mv2.png/v1/fill/w_560,h_560,al_c,lg_1,q_85,enc_auto/ET%20SOBA%20D%C3%9CR%C3%9CM.png">
+                    <span class="menu-category">DÖNER</span>
+                    <h3>Hatay Usülü Döner</h3>
+                    <div class="price">₺89.99 <span>89.90</span></div>
+                </div>
+                <div class="bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img
+                        src="https://www.ustapideci.com.tr/cmsfiles/products/kiymali-pide.png?v=38">
+                    <span class="menu-category">PİDE</span>
+                    <h3>Kuşbaşı Pide</h3>
+                    <div class="price">₺69.99 <span>89.90</span></div>
+                </div>
+                <div class="bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img
+                        src="https://www.burgerking.com.tr/cmsfiles/products/rodeo-whopper-menu.png?v=293">
+                    <span class="menu-category">BURGER</span>
+                    <h3>Rodeo whopper Menü</h3>
+                    <div class="price">₺75.99 <span>89.90</span></div>
+                </div>
+                <div class="bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img
+                        src="https://www.ustapideci.com.tr/cmsfiles/products/usta-karisik-pide-1.png?v=38">
+                    <span class="menu-category">PİDE</span>
+                    <h3>Karışık Pide</h3>
+                    <div class="price">₺95.99 <span>100.90</span></div>
+                </div>
+                <div class="bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img
+                        src="https://t3.ftcdn.net/jpg/06/11/01/26/360_F_611012694_YztSwcyDjHflPhlil3LfeSDXMtew2Scy.jpg">
+                    <span class="menu-category">PIZZA</span>
+                    <h3>Büyük Boy Pizza</h3>
+                    <div class="price">₺100.00 <span>110.90</span></div>
+                </div>
+                <div class="bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img
+                        src="https://www.burgerking.com.tr/cmsfiles/products/triple-whopper-menu.png?v=293">
+                    <span class="menu-category">BURGER</span>
+                    <h3>Triple Whopper Menü</h3>
+                    <div class="price">₺110.99 <span>130.90</span></div>
+                </div>
+                <div class="bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img
+                        src="https://pngimg.com/d/steak_PNG85.png">
+                    <span class="menu-category">ET</span>
+                    <h3>Kuzu Küşleme</h3>
+                    <div class="price">₺250.90 <span>300.90</span></div>
+                </div>
+                <div class="bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--! Menü -->
+
+    <script src="YemekSiparis.js"></script>
+
+
+
+
+
+</body>
+
+</html>
